@@ -23,7 +23,7 @@ pipeline {
             }
 
         }                        
-        stage('Test') {
+        /*stage('Test') {
             steps {
 		sh './jenkins/test/test.sh mvn test' 
             }
@@ -43,6 +43,6 @@ pipeline {
             steps {
        		sh './jenkins/deploy/deploy.sh'
             }
-        }
+        }*/
     }
 }
